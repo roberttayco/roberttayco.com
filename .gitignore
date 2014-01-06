@@ -1,0 +1,8 @@
+*.scssc
+*.pdf
+*.sketch
+
+.DS_Store
+
+node_modules/
+_site/

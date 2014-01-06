@@ -1,0 +1,19 @@
+img {
+  border: 0;
+  display: block;
+}
+
+.full-width { width: 100%; }
+
+.hero {
+  max-height: 400px;
+  margin-bottom: 1.5em;
+  overflow: hidden;
+  width: 100%;
+}
+
+.feature {
+  border: 3px double $color-bg-lt-gray;
+  margin-bottom: 2em;
+  padding: .5em;
+}

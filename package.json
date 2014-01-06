@@ -1,0 +1,23 @@
+{
+  "name": "roberttayco-2014",
+  "version": "0.1.0",
+  "description": "roberttayco.com revamped using jekyll",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "portfolio",
+    "jekyll"
+  ],
+  "author": "Robert Tayco",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "node-sass": "~0.7.0",
+    "grunt-sass": "~0.9.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-jekyll": "~0.4.1",
+    "livereload": "~0.3.2"
+  }
+}

@@ -1,0 +1,29 @@
+h1,h2,h3,h4,h5,h6 {
+  font-family: $font-headings;
+  font-weight: $font-light;
+  line-height: 1.2;
+}
+h1,h2,h3 {
+  letter-spacing: -.05em;
+  margin: 0 0 .4em;
+}
+h4,h5,h6 { margin: 0 0 .7em; }
+h5,h6 {
+  letter-spacing: .125em;
+  text-transform: uppercase;
+}
+h1 { font-size: 2.85em; }
+h2 { font-size: 2.35em; }
+h3 { font-size: 1.75em; }
+h4 { font-size: 1.2em; }
+h5 { font-size: .9em; }
+h6 { font-size: .75em; }
+
+p { margin: 0 0 1.25em; }
+
+.lead-in {
+  border-bottom: 1px solid $color-bg-lt-gray;
+  font-size: 1.5em;
+  padding-bottom: 1em;
+}
+

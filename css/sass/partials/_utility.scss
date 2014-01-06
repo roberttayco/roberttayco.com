@@ -1,0 +1,27 @@
+/* img replacement */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  *text-indent: -9999px; /* IE 6/7 fallback */
+}
+
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+
+/* clearfix */
+.cf {
+  &:before, &:after {
+    content: "";
+    display: table;
+  }
+  &:after { clear: both; }
+}
+/* for IE6/7 */
+.cf { *zoom: 1; } 
+
+.hidden { display: none; }

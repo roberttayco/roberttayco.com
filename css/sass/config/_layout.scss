@@ -1,0 +1,36 @@
+section,
+.section {
+  padding: 2em 0;
+}
+
+
+.container, .main-content { margin: 0 auto; }
+.container {
+   max-width: 960px;
+   padding: 2em 0;
+}
+
+// sticky footer stuff
+html, body { height: 100%; }
+.page-wrap {
+   display: table;
+   padding: 0;
+   height: 100%;
+   width: 100%;
+}
+.block {
+   display: table-row;
+   height: 1px;
+}
+.push { height: auto }
+// end sticky footer stuff
+
+.main-content { max-width: 40em; }
+.sidebar {
+  float: left;
+  font-size: .8em;
+  // width: 20%;
+}
+.align-right { float: right; }
+.align-left { float: left; }
+.centered { text-align: center; }

@@ -1,0 +1,34 @@
+// Functions & Mixins
+// ==============================
+// Tint or shade ([l]ighten/[d]arken) a color set amounts
+@function colorize($color, $change: n) {
+  @if $change == n {
+    @return $color;
+  }
+  @if $change == l1 {
+    @return tint($color, 10%);
+  }
+  @if $change == l2 {
+    @return tint($color, 25%);
+  }
+  @if $change == l3 {
+    @return tint($color, 50%);
+  }
+  @if $change == l4 {
+    @return tint($color, 75%);
+  }
+  @if $change == d1 {
+    @return shade($color, 10%);
+  }
+  @if $change == d2 {
+    @return shade($color, 25%);
+  }
+  @if $change == d3 {
+    @return shade($color, 50%);
+  }
+  @if $change == d4 {
+    @return shade($color, 75%);
+  }
+}
+
+// Media query mixin
