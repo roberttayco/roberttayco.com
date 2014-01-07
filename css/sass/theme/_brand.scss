@@ -1,7 +1,8 @@
 /*    BRANDING ELEMENTS
   ======================= */
 
-  .bg-brand1 {
-   background-color: $color-brand-primary;
-   color: #fff;
-  }
+.bg-brand1 { background-color: $color-brand-primary; }
+.bg-brand2 { background-color: $color-brand-secondary; }
+
+.bg-brand1,
+.bg-brand2 { color: #fff; }

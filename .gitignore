@@ -1,8 +1,11 @@
 *.scssc
 *.pdf
 *.sketch
+*.sublime*
 
 .DS_Store
+Gruntfile.js
+package.json
 
 node_modules/
 _site/

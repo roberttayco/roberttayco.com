@@ -6,9 +6,9 @@ $color-base-ui:      #ececec;
 
 
 /*    BRAND COLORS   */
-$color-brand-primary:     #f05032; // red-orange
-$color-brand-primary-lt:  tint($color-brand-primary, 15%);
-$color-brand-primary-dk: shade($color-brand-primary, 15%);
+$color-brand-primary:       #f05032; // red-orange
+$color-brand-primary-lt:    tint($color-brand-primary, 15%);
+$color-brand-primary-dk:   shade($color-brand-primary, 15%);
 
 $color-brand-secondary:     #45545f; // dark gray
 $color-brand-secondary-lt:  tint($color-brand-secondary, 15%);

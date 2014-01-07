@@ -2,9 +2,10 @@ module.exports = function(grunt) {
    grunt.initConfig({
       pkg: grunt.file.readJSON('package.JSON'),
 
-      cssOutput: './css/style.css',
-      sassOutput: './css/sass/style.scss',
-      sassPath: './css/sass/**/*.scss',
+      cssOutput:    './css/style.css',
+      cssOutputMin: './css/style.min.css',
+      sassOutput:   './css/sass/style.scss',
+      sassPath:     './css/sass/**/*.scss',
       jekyllPath: [
          './*.html',
          './_includes/*.html',
@@ -15,7 +16,7 @@ module.exports = function(grunt) {
       sass: {
          dist: {
             files: {
-               '<%= cssOutput %>':'<%= sassOutput %>'
+               '<%= cssOutputMin %>':'<%= sassOutput %>'
             },
             options: {
                outputStyle: 'compressed'

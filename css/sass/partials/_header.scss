@@ -1,7 +1,7 @@
 // Main Navigation
 // ======================
 #top-nav, .masthead {
-  // background: $color-logo-red;
+  // background: $color-brand-primary;
   // color: #fff;
 }
 
@@ -10,7 +10,7 @@
   text-align: center;
 
   ul {
-    // border-bottom: 1px solid $color-logo-red-lt;
+    // border-bottom: 1px solid $color-brand-primary-lt;
     margin: 0 auto;
     padding: 0;
     width: 20em;
@@ -74,21 +74,12 @@
 }
 
 .tagline {
-  // background: $color-logo-red;
-  // color: #fff;
-  border-bottom: 8px solid colorize($color-logo-red, d2);
   font-family: $font-special;
-  font-weight: $font-bold;
-  padding: 2em 0;
+  font-weight: $font-heavy;
+  padding: 1em 0;
   text-align: center;
-  -webkit-transition: all .3s;
-          transition: all .3s;
 
-  h2 {
-    font-family: $font-special;
-    font-weight: $font-heavy;
-    margin: 0;
-  }
+  @include transition(all, 300ms);
 
   @media screen and (min-width: 1024px) {
     font-size: 1.2em;
@@ -135,7 +126,7 @@
 // ================
 .project {
   background: #fff;
-  color: $color-logo-gray;
+  color: $color-brand-secondary;
   margin: 2em 0;
   overflow: hidden;
   text-align: center;
@@ -202,7 +193,7 @@
   a {}
 
   h3 {
-    background: $color-logo-red;
+    background: $color-brand-primary;
     bottom: 0;
     color: #fff;
     font-size: 1.25em;
@@ -232,10 +223,10 @@
 
   a {
     border: 0;
-    color: $color-logo-gray;
+    color: $color-brand-secondary;
 
     &:hover {
-      background: $color-logo-red;
+      background: $color-brand-primary;
       color: #fff;
     }
   }
@@ -258,14 +249,14 @@
 // Image block links
 // ====================
 .link-block {
-  // background: $color-logo-red;
+  // background: $color-brand-primary;
   border: 0;
   display: block;
   overflow: hidden;
   height: 100%;
 
   &:hover {
-    background: $color-logo-red;
+    background: $color-brand-primary;
     border: 0;
     overflow: hidden;
   }
@@ -341,7 +332,7 @@
     -webkit-transition: all .3s;
             transition: all .3s;
 
-    &:hover { background: $color-logo-red; }
+    &:hover { background: $color-brand-primary; }
 
     &:first-child { margin-left: 0; }
   }
@@ -365,7 +356,7 @@
 
 .copyright {
   // display: inline-block;
-  border-top: 1px solid $color-logo-gray;
+  border-top: 1px solid $color-brand-secondary;
   margin: 1em 0;
   padding: 1em 0;
   text-align: center;

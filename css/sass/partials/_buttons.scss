@@ -1,5 +1,5 @@
 .btn {
-  background: $color-logo-gray;
+  background: $color-brand-secondary;
   border: 0;
   border-radius: .4em;
   color: #fff;
@@ -17,7 +17,7 @@
   // &:visited { color: #fff; }
 
   &:hover, &:focus {
-    background: $color-logo-red;
+    background: $color-brand-primary;
     border: 0;
     color: #fff;
   }
@@ -25,11 +25,11 @@
 }
 
 .btn-action {
-  background: $color-logo-red;
+  background: $color-brand-primary;
   font-size: .85em;
 
   &:hover, &:focus {
-    background: $color-logo-red-dk;
+    background: $color-brand-primary-dk;
   }
   &:active {}
 }
@@ -48,7 +48,7 @@
 
   &:hover {
     background: #fff;
-    color: $color-logo-red;
+    color: $color-brand-primary;
   }
 }
 .btn-return {
@@ -59,11 +59,11 @@
 }
 .btn-masthead {
   background: #fff;
-  color: $color-logo-red;
+  color: $color-brand-primary;
   margin: 1em 2em;
   padding: 1em 2em;
 
-  &:hover, &:focus { background: $color-logo-gray; }
+  &:hover, &:focus { background: $color-brand-secondary; }
 }
 
 .disabled { color: $color-bg-lt-gray !important; }

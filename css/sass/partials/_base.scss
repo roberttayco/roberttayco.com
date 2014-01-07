@@ -7,19 +7,19 @@ body {
 
 a {
   border-bottom: 1px dotted;
-  color: $color-logo-red;
+  color: $color-brand-primary;
   padding-bottom: .2em;
   text-decoration: none;
   -webkit-transition: .3s all;
   transition: .3s all;
 
   &:visited {
-    // color: $color-logo-gray;
+    // color: $color-brand-secondary;
   }
 
   &:hover {
     border-bottom: 1px solid;
-    color: $color-logo-red-dk;
+    color: $color-brand-primary-dk;
   }
 }
 
@@ -49,12 +49,12 @@ input, textarea {
     border: 2px solid $color-bg-dark-blue;
     outline: 0;
   }
-  &[required]:focus { border: 2px solid $color-logo-red; }
+  &[required]:focus { border: 2px solid $color-brand-primary; }
 }
 textarea { height: 10em; }
 
 header {
-  // background: $color-logo-red;
+  // background: $color-brand-primary;
 }
 
 nav ul { list-style: none; }
@@ -72,7 +72,7 @@ footer {
   a { color: #fff; }
 }
 
-header, footer { color: #fff; }
+// header, footer { color: #fff; }
 
 .notice {
   background: #fefacb;
