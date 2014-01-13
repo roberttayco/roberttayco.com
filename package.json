@@ -18,6 +18,7 @@
     "grunt-sass": "~0.9.0",
     "grunt-contrib-watch": "~0.5.3",
     "grunt-jekyll": "~0.4.1",
-    "livereload": "~0.3.2"
+    "livereload": "~0.3.2",
+    "grunt-shell": "~0.6.1"
   }
 }
