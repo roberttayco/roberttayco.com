@@ -48,7 +48,7 @@ module.exports = function(grunt) {
          },
 
          html: {
-            files: ['<%= jekyllPath %>'],
+            files: ['<%= jekyllPath %>', '!node_modules'],
             tasks: ['shell:jekyllBuild']
          },
 
@@ -56,7 +56,6 @@ module.exports = function(grunt) {
             files: ['<%= sassPath %>'],
             tasks: ['sass:dev'],
             options: {
-               livereload: true,
                spawn: false
             }
          },
