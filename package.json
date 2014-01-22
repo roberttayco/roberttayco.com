@@ -19,6 +19,11 @@
     "grunt-contrib-watch": "~0.5.3",
     "grunt-jekyll": "~0.4.1",
     "livereload": "~0.3.2",
-    "grunt-shell": "~0.6.1"
+    "grunt-shell": "~0.6.1",
+    "gulp-util": "~2.2.10",
+    "gulp": "~3.4.1",
+    "gulp-sass": "~0.4.0",
+    "gulp-watch": "~0.4.2",
+    "gulp-exec": "~1.0.4"
   }
 }

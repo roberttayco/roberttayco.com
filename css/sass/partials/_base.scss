@@ -8,10 +8,10 @@ body {
 a {
   border-bottom: 1px dotted;
   color: $color-brand-primary;
-  padding-bottom: .2em;
+  padding-bottom: 0.2em;
   text-decoration: none;
-  -webkit-transition: .3s all;
-  transition: .3s all;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
 
   &:visited {
     // color: $color-brand-secondary;
@@ -28,7 +28,7 @@ form {
   max-width: 25em;
 }
 label {
-  font-size: .65em;
+  font-size: 0.65em;
   font-weight: $font-bold;
   letter-spacing: .1em;
   text-transform: uppercase;

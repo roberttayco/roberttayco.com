@@ -1,11 +1,11 @@
-/*    COLORS
- ============== */
-$color-base-text:    #555;
-$color-base-ui:      #ececec;
+//    COLORS
+// ==============
+$color-base-text: #555;
+$color-base-ui:   #ececec;
 
 
 
-/*    BRAND COLORS   */
+//    BRAND COLORS
 $color-brand-primary:       #f05032; // red-orange
 $color-brand-primary-lt:    tint($color-brand-primary, 15%);
 $color-brand-primary-dk:   shade($color-brand-primary, 15%);
@@ -16,7 +16,7 @@ $color-brand-secondary-dk: shade($color-brand-secondary, 15%);
 
 
 
-/*    SECONDARY PALETTE    */
+//    SECONDARY PALETTE
 $color-bg-pale-blue: #dfe8ef;
 $color-bg-dark-blue: #294052;
 $color-bg-xlt-gray:  #f1f4f5;
