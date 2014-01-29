@@ -2,44 +2,19 @@
 layout: default
 ---
 
-    <section id="about">
-      <div class="main-content">
-        <h5 class="section-head"><span>What I Do</span></h5>
-        <p class="lead-in centered">I'm a web designer, front-end developer, and illustrator.</p>
+<section id="about">
+   <div class="main-content">
+      <h5 class="section-head"><span>What I Do</span></h5>
+      <p class="lead-in centered">I'm a web designer, front-end developer, and illustrator.</p>
 
-        <p>{% include intro.md %}</p>
+      <p>{% include intro.md %}</p>
 
-        <div class="action cf">
-          <p class="centered">If you'd like to get in touch:<br><a class="btn" href="#contact">Send me a message</a></p>
-          <p class="centered">You're welcome to download:<br><a class="btn" href="roberttayco-resume.pdf">my r&eacute;sum&eacute; (PDF)</a></p>
-        </div>
+
+      <div class="action cf">
+         <p class="centered">If you'd like to get in touch:<br><a class="btn" href="#contact">Send me a message</a></p>
+         <p class="centered">You're welcome to download:<br><a class="btn" href="roberttayco-resume.pdf">my r&eacute;sum&eacute; (PDF)</a></p>
       </div>
-    </section>
+   </div>
+</section>
 
-    <section id="work">
-      <div class="main-content cf">
-       <h5 class="section-head"><span>Work Samples</span></h5>
-
-       <div class="project project-cat">
-        <a href="web.html" class="link-block">
-          <img src="/img/vbb-home-sm.jpg" alt="">
-        </a>
-        <h3><a href="web.html">Web Design</a></h3>
-      </div>
-
-      <div class="project project-cat">
-        <a href="/graphics/" class="link-block">
-          <img src="/img/unbridled-sm.jpg" alt="">
-        </a>
-        <h3><a href="/graphics/">Graphic Design</a></h3>
-      </div>
-
-      <div class="project project-cat">
-        <a href="/artwork/" class="link-block">
-          <img src="/img/chrcl-portrait-001.jpg" alt="">
-        </a>
-        <h3><a href="/artwork/">Artwork</a></h3>
-      </div>
-
-    </div>
-  </section>
+{% include work-samples.html %}
