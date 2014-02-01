@@ -43,7 +43,7 @@ module.exports = function(grunt) {
       watch: {
          options: {
             livereload: true,
-            interrupt: true,
+            // interrupt: true,
             atBegin: true
          },
 

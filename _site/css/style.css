@@ -256,7 +256,7 @@ table {
 /* line 1, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/base */
 body {
   color: #555555;
-  font-family: 'roboto', 'lato', 'helvetica neue', sans-serif;
+  font-family: 'pt serif', sans-serif;
   font-size: 1.25em;
   line-height: 1.5; }
 
@@ -336,55 +336,59 @@ footer {
   padding: 1em 0 0.1em;
   text-align: center; }
 
-/* line 4, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/typography */
+/* line 1, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/typography */
+body {
+  font-family: 'pt serif', sans-serif; }
+
+/* line 5, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/typography */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'roboto condensed', 'helvetica neue', sans-serif;
+  font-family: 'pt serif', sans-serif;
   font-weight: 300;
   line-height: 1.2; }
 
-/* line 9, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/typography */
+/* line 10, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/typography */
 h1, h2, h3 {
   letter-spacing: -0.05em;
   margin: 0 0 0.4em; }
 
-/* line 13, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/typography */
+/* line 14, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/typography */
 h4, h5, h6 {
   margin: 0 0 0.7em; }
 
-/* line 14, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/typography */
+/* line 15, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/typography */
 h5, h6 {
   letter-spacing: 0.125em;
   text-transform: uppercase; }
 
-/* line 18, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/typography */
+/* line 19, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/typography */
 h1 {
   font-size: 2.85em; }
 
-/* line 19, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/typography */
+/* line 20, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/typography */
 h2 {
   font-size: 2.35em; }
 
-/* line 20, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/typography */
+/* line 21, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/typography */
 h3 {
   font-size: 1.75em; }
 
-/* line 21, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/typography */
+/* line 22, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/typography */
 h4 {
   font-size: 1.2em; }
 
-/* line 22, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/typography */
+/* line 23, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/typography */
 h5 {
   font-size: 0.9em; }
 
-/* line 23, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/typography */
+/* line 24, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/typography */
 h6 {
   font-size: 0.75em; }
 
-/* line 25, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/typography */
+/* line 26, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/typography */
 p {
   margin: 0 0 1.25em; }
 
-/* line 27, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/typography */
+/* line 28, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/typography */
 .lead-in {
   border-bottom: 1px solid #d4dbe0;
   font-size: 1.5em;
@@ -397,7 +401,7 @@ p {
   border-radius: 0.4em;
   color: white;
   display: inline-block;
-  font-family: 'roboto', 'lato', 'helvetica neue', sans-serif;
+  font-family: 'pt serif', sans-serif;
   font-size: 0.7em;
   font-weight: 700;
   letter-spacing: 0.15em;
@@ -537,6 +541,7 @@ img {
 /* line 76, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
 .tagline {
   font-family: 'merriweather', georgia, serif;
+  font-size: 1.25em;
   font-weight: 900;
   padding: 1em 0;
   text-align: center;
@@ -545,9 +550,9 @@ img {
   transition: all, 300ms; }
   @media screen and (min-width: 1024px) {
     .tagline {
-      font-size: 1.2em; } }
+      font-size: 2em; } }
 
-/* line 90, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
+/* line 91, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
 .masthead-mini {
   padding: 1em 0; }
   @media screen and (min-width: 768px) {
@@ -557,7 +562,7 @@ img {
       float: left;
       height: 20px; } }
 
-/* line 105, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
+/* line 106, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
 .logo {
   background: url(../img/logo-white.svg) center no-repeat;
   -webkit-background-size: contain;
@@ -573,7 +578,7 @@ img {
     .logo {
       height: 28px; } }
 
-/* line 127, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
+/* line 128, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
 .project {
   background: white;
   color: #45545f;
@@ -584,14 +589,14 @@ img {
   width: 100%;
   -webkit-transition: all 0.3s;
   transition: all 0.3s; }
-  /* line 138, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
+  /* line 139, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
   .project a {
     border: 0;
     color: inherit; }
-    /* line 142, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
+    /* line 143, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
     .project a:hover {
       border: 0; }
-  /* line 144, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
+  /* line 145, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
   .project img {
     width: 100%; }
   @media screen and (min-width: 480px) {
@@ -610,33 +615,33 @@ img {
     .project {
       height: 16em; } }
 
-/* line 165, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
+/* line 166, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
 .project-cat {
   border: 3px double #d4dbe0;
   padding: 0.5em 0.5em 2.5em; }
-  /* line 169, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
+  /* line 170, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
   .project-cat h3 {
     font-size: 0.8em;
     padding: 1em 0;
     text-transform: uppercase; }
-  /* line 174, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
+  /* line 175, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
   .project-cat img {
     position: relative;
     left: 0;
     top: 0;
     -webkit-transition: all 0.2s;
     transition: all 0.2s; }
-    /* line 181, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
+    /* line 182, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
     .project-cat img:hover {
       left: -4%;
       top: -4%;
       opacity: 0.6;
       width: 108%; }
 
-/* line 190, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
+/* line 191, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
 .project-thumb {
   position: relative; }
-  /* line 195, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
+  /* line 196, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
   .project-thumb h3 {
     background: #f05032;
     bottom: 0;
@@ -650,29 +655,29 @@ img {
     height: 100%;
     -webkit-transition: all 0.5s;
     transition: all 0.5s; }
-    /* line 209, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
+    /* line 210, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
     .project-thumb h3:hover {
       opacity: 0.9;
       padding: 3.5em 0.5em 1em; }
-  /* line 214, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
+  /* line 215, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
   .project-thumb img {
     position: absolute;
     top: 0; }
 
-/* line 220, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
+/* line 221, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
 .proj-nav {
   background: #f1f4f5;
   padding: 0; }
-  /* line 224, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
+  /* line 225, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
   .proj-nav a {
     border: 0;
     color: #45545f; }
-    /* line 228, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
+    /* line 229, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
     .proj-nav a:hover {
       background: #f05032;
       color: white; }
 
-/* line 234, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
+/* line 235, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
 .prev, .next {
   font-size: 0.7em;
   font-weight: 700;
@@ -680,28 +685,28 @@ img {
   text-transform: uppercase;
   width: 50%; }
 
-/* line 241, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
+/* line 242, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
 .prev {
   float: left;
   text-align: right; }
 
-/* line 245, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
+/* line 246, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
 .next {
   float: right; }
 
-/* line 251, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
+/* line 252, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
 .link-block {
   border: 0;
   display: block;
   overflow: hidden;
   height: 100%; }
-  /* line 258, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
+  /* line 259, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
   .link-block:hover {
     background: #f05032;
     border: 0;
     overflow: hidden; }
 
-/* line 267, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
+/* line 268, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
 .section-head {
   font-size: 0.7em;
   font-weight: 400;
@@ -709,44 +714,44 @@ img {
   padding: 1em;
   overflow: hidden;
   text-align: center; }
-  /* line 275, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
+  /* line 276, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
   .section-head span {
     background: white;
     border: 3px double #d4dbe0;
     display: inline-block;
     padding: 0.7em 2.5em;
     position: relative; }
-    /* line 282, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
+    /* line 283, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
     .section-head span:before, .section-head span:after {
       border-top: 1px solid #d4dbe0;
       content: "";
       position: absolute;
       top: 50%;
       width: 40em; }
-    /* line 289, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
+    /* line 290, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
     .section-head span:before {
       right: 100%;
       margin-right: 3px; }
-    /* line 293, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
+    /* line 294, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
     .section-head span:after {
       left: 100%;
       margin-left: 3px; }
 
-/* line 300, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
+/* line 301, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
 .action {
   font-size: 0.85em;
   margin: 2.5em 0 1em; }
-  /* line 304, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
+  /* line 305, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
   .action p {
     float: left;
     margin: 0;
     padding: 1em 2em;
     width: 50%; }
-    /* line 310, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
+    /* line 311, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
     .action p:first-child {
       border-right: 1px solid #d4dbe0; }
 
-/* line 314, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
+/* line 315, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
 .social {
   list-style: none;
   margin: 0 auto;
@@ -755,7 +760,7 @@ img {
   @media screen and (min-width: 600px) {
     .social {
       float: right; } }
-  /* line 327, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
+  /* line 328, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
   .social li {
     display: inline-block;
     margin-left: 0.5em;
@@ -763,41 +768,41 @@ img {
     width: 32px;
     -webkit-transition: all 0.3s;
     transition: all 0.3s; }
-    /* line 335, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
+    /* line 336, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
     .social li:hover {
       background: #f05032; }
-    /* line 337, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
+    /* line 338, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
     .social li:first-child {
       margin-left: 0; }
-  /* line 339, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
+  /* line 340, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
   .social a {
     -webkit-background-size: auto 100%;
     background-size: auto 100%;
     border: 0; }
 
-/* line 346, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
+/* line 347, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
 .fb, .tw, .gh, .gplus {
   display: block;
   height: 100%;
   width: 100%; }
 
-/* line 352, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
+/* line 353, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
 .fb {
   background: url(../img/social-icons.png) 0 0 no-repeat; }
 
-/* line 353, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
+/* line 354, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
 .tw {
   background: url(../img/social-icons.png) -32px 0 no-repeat; }
 
-/* line 354, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
+/* line 355, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
 .gh {
   background: url(../img/social-icons.png) -64px 0 no-repeat; }
 
-/* line 355, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
+/* line 356, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
 .gplus {
   background: url(../img/social-icons.png) -96px 0 no-repeat; }
 
-/* line 357, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
+/* line 358, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
 .copyright {
   border-top: 1px solid #45545f;
   margin: 1em 0;
