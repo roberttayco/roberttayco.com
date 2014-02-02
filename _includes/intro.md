@@ -1,1 +1,3 @@
-I believe in the value of sophisticated simplicity in design. By stripping out the fluff and getting down to barest essentials of your message, we can craft something that speaks directly to your audience with maximum clarity. Let's connect with them through empathetic design and a great user experience.
+<p>This is really a lot of fucking gibberish. I believe it, but it sounds like pretentious horseshit. Need a rewrite.</p>
+
+<p>I believe in the value of sophisticated simplicity in design. By stripping out the fluff and getting down to barest essentials of your message, we can craft something that speaks directly to your audience with maximum clarity. Let's connect with them through empathetic design and a great user experience.</p>

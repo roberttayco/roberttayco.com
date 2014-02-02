@@ -522,20 +522,6 @@ img {
   .project-page #top-nav .btn {
     margin: 0; } }
 
-/* line 59, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
-.masthead {
-  padding: 4% 10%;
-  text-align: center; }
-  @media screen and (min-width: 480px) {
-    .masthead {
-      padding: 1.25em 0; } }
-  @media screen and (min-width: 600px) {
-    .masthead {
-      padding: 1.5em 0; } }
-  @media screen and (min-width: 1024px) {
-    .masthead {
-      padding: 5em 0 2em; } }
-
 /* line 76, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/header */
 .tagline {
   font-family: 'merriweather', georgia, serif;
@@ -834,6 +820,16 @@ img {
       padding-right: 1em;
       width: 12em; } }
 
+
+/* line 1, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/modules/masthead */
+.masthead {
+  background-color: #f05032;
+  color: white;
+  position: fixed;
+  width: 300px;
+  top: 0;
+  left: 0;
+  bottom: 0; }
 
 /* img replacement */
 /* line 2, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/partials/utility */
