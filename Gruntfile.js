@@ -43,7 +43,7 @@ module.exports = function(grunt) {
       watch: {
          options: {
             livereload: true,
-            // interrupt: true,
+            interrupt: true,
             atBegin: true
          },
 
@@ -54,7 +54,7 @@ module.exports = function(grunt) {
 
          css: {
             files: ['<%= sassPath %>'],
-            tasks: ['sass:dev'],
+            tasks: ['sass:dev','shell:jekyllBuild'],
             options: {
                spawn: false
             }

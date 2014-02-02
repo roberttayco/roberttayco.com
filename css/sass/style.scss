@@ -1,15 +1,19 @@
-// Basic configuration, variables, mixins
+//    Basic configuration, variables, mixins
+// ================================================
 @import "bourbon/bourbon";
+@import "partials/normalize";
+
+//    BRANDING
+// ================================================
+@import "theme/brand-type",
+        "theme/brand-colors";
 
 @import "config/config";
 @import "config/mixins";
 @import "config/layout";
 
-@import "theme/colors";
-@import "theme/brand";
 
 // Foundation styling
-@import "partials/normalize";
 @import "partials/base";
 @import "partials/typography";
 @import "partials/buttons";

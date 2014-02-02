@@ -1,3 +1,11 @@
+/*    BRANDING ELEMENTS
+  ======================= */
+
+
+
+
+
+
 //    COLORS
 // ==============
 $color-base-text: #555;
@@ -21,3 +29,13 @@ $color-bg-pale-blue: #dfe8ef;
 $color-bg-dark-blue: #294052;
 $color-bg-xlt-gray:  #f1f4f5;
 $color-bg-lt-gray:   #d4dbe0;
+
+
+// These are classes and should be separated out from the
+// branding variables
+
+.bg-brand1 { background-color: $color-brand-primary; }
+.bg-brand2 { background-color: $color-brand-secondary; }
+
+.bg-brand1,
+.bg-brand2 { color: #fff; }
