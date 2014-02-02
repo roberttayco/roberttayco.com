@@ -1,0 +1,12 @@
+/*    COLORS
+  ------------------------ */
+/**
+ *    A set of classes that define the colors of background
+ *    and text elements
+ */
+
+.bg-brand1 { background-color: $color-brand-primary; }
+.bg-brand2 { background-color: $color-brand-secondary; }
+
+.bg-brand1,
+.bg-brand2 { color: #fff; }

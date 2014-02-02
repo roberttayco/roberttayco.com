@@ -185,17 +185,15 @@ table {
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility; }
 
-/*    BRANDING ELEMENTS
-  ======================= */
-/* line 37, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/theme/brand-colors */
+/* line 30, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/theme/brand-colors */
 .bg-brand1 {
   background-color: #f05032; }
 
-/* line 38, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/theme/brand-colors */
+/* line 31, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/theme/brand-colors */
 .bg-brand2 {
   background-color: #45545f; }
 
-/* line 41, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/theme/brand-colors */
+/* line 34, /Users/roberttayco/Dropbox/Sites/roberttayco.com/css/sass/theme/brand-colors */
 .bg-brand1, .bg-brand2 {
   color: white; }
 
