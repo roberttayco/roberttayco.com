@@ -27,6 +27,7 @@ form {
   margin: 0 auto;
   max-width: 25em;
 }
+
 label {
   font-size: 0.65em;
   font-weight: $font-bold;
@@ -49,8 +50,10 @@ input, textarea {
     border: 2px solid $color-bg-dark-blue;
     outline: 0;
   }
+
   &[required]:focus { border: 2px solid $color-brand-primary; }
 }
+
 textarea { height: 10em; }
 
 header {
