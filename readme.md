@@ -11,4 +11,4 @@ This is my home on the web. Whenever I get the chance, I'll tinker and change th
 
 ---
 
-All content and code is copyright Robert Tayco (except where I've credited the owners & authors where applicable).
+All content and code is copyright Robert Tayco (except where I've credited the owners & authors).
