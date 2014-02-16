@@ -1,3 +1,17 @@
+.main-content {
+  background-color: #fff;
+  max-width: 40em;
+}
+
+.container-masthead {
+
+}
+
+.container-sidebar {}
+
+
+
+
 section,
 .section {
   padding: 2em 0;
@@ -7,7 +21,6 @@ section,
 .container, .main-content { margin: 0 auto; }
 .container {
    max-width: 960px;
-   padding: 2em 0;
 }
 
 // sticky footer stuff
@@ -25,7 +38,6 @@ html, body { height: 100%; }
 .push { height: auto }
 // end sticky footer stuff
 
-.main-content { max-width: 40em; }
 .sidebar {
   float: left;
   font-size: .8em;

@@ -1,4 +1,5 @@
 body {
+  background-color: $color-gray-xlt;
   color: $color-base-text;
   font-family: $font-copy;
   font-size: 1.25em;
@@ -63,7 +64,7 @@ header {
 nav ul { list-style: none; }
 
 // section { padding: 2em; }
-#about { background: $color-bg-xlt-gray; }
+// #about { background: $color-bg-xlt-gray; }
 #contact { background: $color-bg-pale-blue; }
 
 footer {

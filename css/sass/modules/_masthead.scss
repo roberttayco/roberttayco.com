@@ -1,9 +1,14 @@
 .masthead {
-   background-color: $color-brand-primary;
-   color: #fff;
+   background-color: $color-gray-xlt;
+   // color: #fff;
    position: fixed;
-   width: 300px;
+   min-width: 300px;
+   max-width: 33.3333%;
    top: 0;
    left: 0;
    bottom: 0;
+}
+
+.menu {
+
 }
