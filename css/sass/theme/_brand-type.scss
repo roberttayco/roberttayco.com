@@ -1,12 +1,42 @@
-// Fonts
-// ==========
-$font-base:     'pt serif', sans-serif;
+/*    TYPOGRAPHY
+=========================== */
 
-$font-copy:     'pt serif', sans-serif;
-$font-headings: 'pt serif', sans-serif;
+//    Type defaults
+// ---------------------
+$base-font-size:   18;
+$base-line-height: 1.5;
+
+
+//    Mixins & Functions
+// ---------------------
+
+// calculate rem sizes
+@function rem($size) {
+   $rem-size: $size / $base-font-size;
+   @return #{$rem-size}rem;
+}
+
+// base font-size mixin
+@mixin font-size($px) {
+   font-size: $px * 1px; // pixels
+   font-size: rem($px);  // rems
+}
+
+
+
+//    Typefaces
+// ---------------------
+$font-base:     'pt serif', sans-serif;
+$font-sans:     'pt serif', sans-serif;
+$font-serif:    'merriweather', georgia, serif;
 $font-special:  'merriweather', georgia, serif;
 
+
+//    Font weights
+// ---------------------
 $font-heavy:  900;
 $font-bold:   700;
 $font-normal: 400;
 $font-light:  300;
+
+

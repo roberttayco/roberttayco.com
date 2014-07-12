@@ -8,24 +8,26 @@
 @import "theme/brand-type",
         "theme/brand-colors";
 
-@import "config/config";
-@import "config/mixins";
-@import "config/layout";
+// @import "config/config";
+// @import "config/mixins";
+// @import "config/layout";
 
 
 // Foundation styling
-@import "partials/base";
-@import "partials/typography";
-@import "partials/buttons";
-@import "partials/figures";
+@import "base/base",
+        "base/typography";
+
+// @import "partials/typography";
+// @import "partials/buttons";
+// @import "partials/figures";
 // @import "partials/layout";
 
 // UI Patterns
-@import "partials/header";
-@import "partials/sidebar";
-@import "partials/resume";
+// @import "partials/header";
+// @import "partials/sidebar";
+// @import "partials/resume";
 
-@import "modules/masthead";
+// @import "modules/masthead";
 
 @import "partials/utility";
 

@@ -10,16 +10,16 @@ var gulp       = require('gulp'),
 var paths = {
    markupSrc:  [
       '*.html',
-      '_layouts/**',
-      '_posts/**',
-      '_includes/**'
+      '_layouts/**/*.html',
+      '_posts/**/*.{html,md}',
+      '_includes/**/*.html'
    ],
-   markupDir: './',
+   markupDir: './**/*.{html,md}',
    markupDest: '_site'
 };
 
 
-var jekyll = {
+var site = {
   src:      '*.html',
   layouts:  '_layouts/*',
   includes: '_includes/*',
@@ -28,12 +28,12 @@ var jekyll = {
 };
 
 var dest = {
-  css:   jekyll.build + '/css',
-  img:   jekyll.build + '/img',
-  js:    jekyll.build + '/js'
+  css:   site.build + '/css',
+  img:   site.build + '/img',
+  js:    site.build + '/js'
 };
 
-var sass = {
+var css = {
   src:     'css/sass/style.scss',
   imports: 'css/sass/**',
   dest:    'css'
@@ -46,28 +46,28 @@ gulp.task('livereload', function() {
 });
 
 gulp.task('sass', function() {
-   return gulp.src(sass.src)
+   return gulp.src(css.src)
       .pipe(sass({
-         includePaths: [sass.imports],
+         includePaths: [css.imports],
          outputStyle:  'expanded',
          lineNumbers:  true
       }))
-      .pipe(gulp.dest(sass.dest))
+      .pipe(gulp.dest(css.dest))
       .pipe(livereload(server));
 });
 
-// gulp.task('jekyll', function() {
-//    return gulp.src(paths.markupDir)
-//       .pipe(jekyll({
-//          source: './',
-//          destination: paths.markupDest,
-//       }))
-//       .pipe(gulp.dest('./_site/'))
-//       .pipe(refresh(server));
-// });
+gulp.task('jekyll', function() {
+   return gulp.src(paths.markupSrc)
+      .pipe(jekyll({
+         source: './',
+         destination: paths.markupDest
+      }))
+      .pipe(gulp.dest('./_site'))
+      .pipe(refresh(server));
+});
 
 gulp.task('watch', function() {
-   gulp.watch(paths.sass, ['sass']);
+   gulp.watch(css.src, ['sass']);
    gulp.watch(paths.markupSrc, ['jekyll']);
 });
 
