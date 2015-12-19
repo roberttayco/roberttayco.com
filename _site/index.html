@@ -1,20 +1,21 @@
 <!doctype html>
-<html lang="en">
+<html class="no-js" lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Robert Tayco | Web Designer/Front-End Developer</title>
-  <link rel="stylesheet" href="/css/style.css">
-  <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,400italic|Merriweather:900' rel='stylesheet' type='text/css'>
-  <!--[if lt IE 10]>
-    <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+   <meta charset="utf-8">
+   <meta http-equiv="x-ua-compatible" content="ie=edge">
+   <title>Robert Tayco | UI/UX Designer | Front-End Developer</title>
+   <meta name="description" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- Place favicon.ico in the root directory -->
+   <!-- <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
+   <link rel="stylesheet" href="./css/style.css">
+   <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,400italic|Merriweather:900' rel='stylesheet' type='text/css'>
+   <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 <body>
 
-
 <header class="masthead">
-   <a href="/"><img src="/img/logo_twotone.svg" alt="Robert Tayco"></a>
+   <a href="/"><img src="./img/logo_twotone.svg" alt="Robert Tayco"></a>
    <nav>
       <ul>
          <li><a class="" href="#0">About</a></li>
@@ -70,16 +71,52 @@
 </div>
 
 
-  <script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-11204569-1']);
-  _gaq.push(['_trackPageview']);
+<section id="contact">
+  <div class="main-content">
+      <h5 class="section-head"><span>Get in Touch</span></h5>
+      <p class="lead-in centered">Interested in working together? Want some more info about what I can do for you? Just want to say hi? Drop me a line!</p>
+      <p>Sorry, but I'm not currently accepting new projects.</p>
+      <p class="centered"><a href="mailto:rob@roberttayco.com" class="btn btn-action btn-contact">rob@roberttayco.com</a></p>
+   </div>
+</section>
+<footer>
+  <div class="container cf">
+    <ul class="social">
+      <li><a href="http://www.facebook.com/roberttayco" class="social ir fb" title="Facebook">Facebook</a></li>
+      <li><a href="https://plus.google.com/+RobertTayco" class="social ir gplus" title="Google+">Google+</a></li>
+      <li><a href="http://twitter.com/roberttayco" class="social ir tw" title="Twitter">Twitter</a></li>
+      <li><a href="http://github.com/roberttayco" class="social ir gh" title="Github">Github</a></li>
+      <!-- Add Dribbble -->
+      <!--<li><a href="" class="social ir drib" title="Dribbble">Dribbble</a></li>-->
+    </ul>
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+    <p id="copyright"><a href="mailto:rob@roberttayco.com" title="Email me">Robert Tayco</a></p>
+  </div>
+</footer>
+
+<script>
+   var date = new Date(),
+       copyrightYear = date.getFullYear();
+   document.getElementById('copyright').prepend('&copy' + copyrightYear);
+
+
+// Analytics
+   var _gaq = _gaq || [];
+   _gaq.push(['_setAccount', 'UA-11204569-1']);
+   _gaq.push(['_trackPageview']);
+
+   (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+   })();
 </script>
+
+<script>
+// LiveReload script
+   document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +
+   ':35729/livereload.js?snipver=1"></' + 'script>')
+</script>
+
 </body>
 </html>

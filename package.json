@@ -1,5 +1,5 @@
 {
-  "name": "roberttayco-2014",
+  "name": "roberttayco-2016",
   "version": "0.1.0",
   "description": "roberttayco.com revamped using jekyll",
   "main": "index.html",
@@ -13,19 +13,18 @@
   "author": "Robert Tayco",
   "license": "BSD-2-Clause",
   "devDependencies": {
-    "grunt": "~0.4.2",
-    "node-sass": "~0.7.0",
-    "grunt-sass": "~0.9.0",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt-jekyll": "~0.4.1",
+    "grunt": "0.4.x",
+    "node-sass": "3.4.x",
+    "grunt-sass": "1.1.x",
+    "grunt-contrib-watch": "~0.6.x",
     "grunt-shell": "~0.6.1",
-    "gulp": "~3.5.0",
-    "gulp-sass": "~0.6.0",
-    "gulp-livereload": "~0.3.1",
+    "gulp": "3.8.x",
+    "gulp-sass": ">0.6.0",
+    "gulp-livereload": ">0.3.1",
     "tiny-lr": "0.0.5",
-    "gulp-jekyll": "0.0.0",
     "gulp-grunt": "~0.4.1",
-    "gulp-autoprefixer": "0.0.6",
-    "gulp-imagemin": "~0.1.5"
+    "gulp-autoprefixer": ">0.0.6",
+    "gulp-imagemin": ">0.1.5",
+    "gulp-jekyll-stream": "~0.1.x"
   }
 }

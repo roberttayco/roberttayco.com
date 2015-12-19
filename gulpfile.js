@@ -1,21 +1,20 @@
 var gulp       = require('gulp'),
     sass       = require('gulp-sass'),
     prefix     = require('gulp-autoprefixer'),
-    jekyll     = require('gulp-jekyll'),
+    jekyll     = require('gulp-jekyll-stream'),
     imagemin   = require('gulp-imagemin'),
     livereload = require('gulp-livereload'),
     lr         = require('tiny-lr'),
     server     = lr();
 
+// Project paths
 var paths = {
-   markupSrc:  [
-      '*.html',
-      '_layouts/**/*.html',
-      '_posts/**/*.{html,md}',
-      '_includes/**/*.html'
-   ],
-   markupDir: './**/*.{html,md}',
-   markupDest: '_site'
+   workingDir: '/',
+   drafts:     '_drafts',
+   layouts:    '_layouts',
+   includes:   '_includes',
+   posts:      '_posts',
+   data:       '_data'
 };
 
 
@@ -56,16 +55,21 @@ gulp.task('sass', function() {
       .pipe(livereload(server));
 });
 
+// Jekyll compilation
 gulp.task('jekyll', function() {
-   return gulp.src(paths.markupSrc)
+   return gulp.src(paths.workingDir)
       .pipe(jekyll({
-         source: './',
-         destination: paths.markupDest
+         bundleExec: false,
+         quiet:      true,
+         safe:       false,
+         cwd:        paths.workingDir,
+         layouts:    paths.layouts,
       }))
       .pipe(gulp.dest('./_site'))
       .pipe(refresh(server));
 });
 
+// Watch CSS files to compile Sass, and watch markup to compile Jekyll templates
 gulp.task('watch', function() {
    gulp.watch(css.src, ['sass']);
    gulp.watch(paths.markupSrc, ['jekyll']);
