@@ -1,11 +1,11 @@
-var gulp       = require('gulp'),
-    sass       = require('gulp-sass'),
-    prefix     = require('gulp-autoprefixer'),
-    jekyll     = require('gulp-jekyll-stream'),
-    imagemin   = require('gulp-imagemin'),
-    livereload = require('gulp-livereload'),
-    lr         = require('tiny-lr'),
-    server     = lr();
+var gulp         = require('gulp'),
+    sass         = require('gulp-sass'),
+    autoprefixer = require('gulp-autoprefixer'),
+    jekyll       = require('gulp-jekyll-stream'),
+    imagemin     = require('gulp-imagemin'),
+    livereload   = require('gulp-livereload');
+   //  lr           = require('tiny-lr'),
+   //  server       = lr();
 
 // Project paths
 var paths = {
@@ -34,7 +34,7 @@ var dest = {
 
 var css = {
   src:     'css/sass/style.scss',
-  imports: 'css/sass/**',
+  path: 'css/sass/**',
   dest:    'css'
 };
 
@@ -44,15 +44,18 @@ gulp.task('livereload', function() {
    });
 });
 
-gulp.task('sass', function() {
+gulp.task('styles', function() {
    return gulp.src(css.src)
       .pipe(sass({
-         includePaths: [css.imports],
+         includePaths: [css.path],
          outputStyle:  'expanded',
          lineNumbers:  true
       }))
-      .pipe(gulp.dest(css.dest))
-      .pipe(livereload(server));
+      .pipe(autoprefixer({
+         browsers: ['last 2 version','android >= 4']
+      }))
+      .pipe(gulp.dest(css.dest));
+      // .pipe(livereload(server));
 });
 
 // Jekyll compilation
@@ -65,14 +68,15 @@ gulp.task('jekyll', function() {
          cwd:        paths.workingDir,
          layouts:    paths.layouts,
       }))
-      .pipe(gulp.dest('./_site'))
+      .pipe(gulp.dest(site.build))
       .pipe(refresh(server));
 });
 
 // Watch CSS files to compile Sass, and watch markup to compile Jekyll templates
 gulp.task('watch', function() {
-   gulp.watch(css.src, ['sass']);
+   gulp.watch(css.path, ['styles']);
    gulp.watch(paths.markupSrc, ['jekyll']);
 });
 
-gulp.task('default', ['sass', 'livereload', 'watch']);
+// gulp.task('default', ['styles', 'livereload', 'watch']);
+gulp.task('default', ['styles', 'watch']);
