@@ -38,5 +38,7 @@ exclude: [
    README.md,
    package.json,
    node_modules,
-   gulpfile.js
+   gulpfile.js,
+   *.sublime*,
+   design/
 ]
