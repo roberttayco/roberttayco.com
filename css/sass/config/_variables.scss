@@ -1,0 +1,65 @@
+// Colors
+// ========================
+
+// Primary brand color with tint/shade (percent suffix)
+$color-brand-primary:     #f05032;
+$color-brand-primary-15:  mix(white, $color-brand-primary, 85%);
+$color-brand-primary-30:  mix(white, $color-brand-primary, 70%);
+$color-brand-primary-50:  mix(white, $color-brand-primary, 50%);
+$color-brand-primary-80:  mix(white, $color-brand-primary, 20%);
+$color-brand-primary-120: mix(black, $color-brand-primary, 20%);
+
+// Secondary brand color with tint/shade (percent suffix)
+$color-brand-secondary:     #4D5B66;
+$color-brand-secondary-15:  mix(white, $color-brand-secondary, 85%);
+$color-brand-secondary-30:  mix(white, $color-brand-secondary, 70%);
+$color-brand-secondary-50:  mix(white, $color-brand-secondary, 50%);
+$color-brand-secondary-80:  mix(white, $color-brand-secondary, 20%);
+$color-brand-secondary-120: mix(black, $color-brand-secondary, 20%);
+
+// Shades of gray
+$color-gray:     #393941;
+$color-gray-10:  gray;
+$color-gray-25:  gray;
+$color-gray-50:  gray;
+$color-gray-75:  gray;
+$color-gray-120: gray;
+
+$color-text-base:    #62748C;
+$color-text-reverse: #ACD2E6;
+
+$color-bg-pale-blue: #dfe8ef;
+$color-bg-dark-blue: #294052;
+$color-bg-xlt-gray:  #f1f4f5;
+$color-bg-lt-gray:   #d4dbe0;
+
+
+// Typography
+// =========================
+$font-size-base: 100%;
+
+$font-heavy:  900;
+$font-bold:   700;
+$font-normal: 400;
+$font-light:  200;
+
+$font-family-copy:    'alegreya', serif;
+$font-family-heading: 'roboto condensed', sans-serif;
+
+$font-weight-copy:    $font-normal;
+$font-weight-heading: $font-bold;
+
+$line-height-base: 1.6;
+
+
+// Layout
+// ========================
+$container-width:   1200px;
+
+$base-spacing-unit: 8px;
+
+$gutter-width:      $base-spacing-unit * 2;
+
+
+// Media queries
+// ========================
