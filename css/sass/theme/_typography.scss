@@ -1,0 +1,35 @@
+html,body {
+   font-family: $font-family-copy;
+   font-size:   $font-size-base;
+   line-height: $line-height-base;
+}
+
+// Headings
+h1,h2,h3,h4,h5,h6 {
+  font-family: $font-family-heading;
+  font-weight: $font-bold;
+}
+
+h1 {
+   @include font-size(44px);
+}
+h2 {
+   @include font-size(40px);
+}
+h3 {
+   @include font-size(36px);
+}
+h4 {
+   @include font-size(24px);
+}
+h5 {
+   @include font-size(18px);
+}
+h6 {
+   @include font-size(14px);
+}
+
+p {
+   @include font-size(18px);
+   margin-bottom: 1.5em;
+}
