@@ -2,7 +2,7 @@
 name: Robert Tayco
 
 # Short description (goes below the title; it will also be used in the RSS feed)
-# description: This is a sample Jekyll Blog.
+description: Robert Tayco is a UX/UI Designer and Front-End Developer based in Vancouver, WA. He is currently accepting design projects with an emphasis on user experience.
 
 # Your name, as you want it to appear underneath each post and in the footer
 author: Robert Tayco
@@ -38,7 +38,8 @@ exclude: [
    README.md,
    package.json,
    node_modules,
+   Gruntfile.js,
    gulpfile.js,
-   *.sublime*,
-   design/
+   design/,
+   roberttayco.com.sublime
 ]
