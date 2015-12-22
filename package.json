@@ -13,18 +13,19 @@
   "author": "Robert Tayco",
   "license": "BSD-2-Clause",
   "devDependencies": {
-    "grunt": "0.4.x",
-    "node-sass": "3.4.x",
-    "grunt-sass": "1.1.x",
-    "grunt-contrib-watch": "~0.6.x",
-    "grunt-shell": "~0.6.1",
-    "gulp": "3.8.x",
-    "gulp-sass": ">0.6.0",
-    "gulp-livereload": ">0.3.1",
-    "tiny-lr": "0.0.5",
-    "gulp-grunt": "~0.4.1",
-    "gulp-autoprefixer": ">0.0.6",
-    "gulp-imagemin": ">0.1.5",
-    "gulp-jekyll-stream": "~0.1.x"
-  }
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-jekyll-stream": "^0.1.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sass": "^2.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roberttayco/roberttayco.com.git"
+  },
+  "bugs": {
+    "url": "https://github.com/roberttayco/roberttayco.com/issues"
+  },
+  "homepage": "https://github.com/roberttayco/roberttayco.com#readme"
 }
