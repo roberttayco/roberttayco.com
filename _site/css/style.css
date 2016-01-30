@@ -393,7 +393,19 @@ th {
   padding: 0;
 }
 
+/* ------------------------------*/
+/* ------------------------------*/
+/* Main container for all the site content */
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 42em;
+  width: 85%;
+}
+
 html, body {
+  background: #F5F7FA;
+  color: #5F748D;
   font-family: "alegreya", serif;
   font-size: 100%;
   line-height: 1.6;
@@ -405,13 +417,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 48px;
-  font-size: 3rem;
+  font-size: 44px;
+  font-size: 2.75rem;
 }
 
 h2 {
-  font-size: 42px;
-  font-size: 2.625rem;
+  font-size: 40px;
+  font-size: 2.5rem;
 }
 
 h3 {
@@ -435,5 +447,42 @@ h6 {
 }
 
 p {
+  font-size: 18px;
+  font-size: 1.125rem;
   margin-bottom: 1.5em;
+}
+
+.section-title {
+  color: #f05032;
+  letter-spacing: 0.2em;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-size: 1.375rem;
+}
+
+.headline {
+  font-size: 24px;
+  font-size: 1.5rem;
+}
+
+.masthead {
+  background: #f05032;
+  color: #fff;
+}
+
+.logo {
+  background: url(./img/logo.svg) center no-repeat;
+  display: inline-block;
+  height: 40px;
+  width: 120px;
+}
+
+.tagline {
+  font-family: "alegreya", serif;
+  font-weight: 900;
+  line-height: 1.2;
+  text-align: center;
+  font-size: 24px;
+  font-size: 1.5rem;
 }

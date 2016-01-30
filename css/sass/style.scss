@@ -1,21 +1,24 @@
 //    Basic configuration, variables, mixins
 // ================================================
-@import "base/normalize";
+@import "config/normalize";
 @import "config/variables";
 @import "config/mixins";
+
+
+//    Layout
+// ================================================
+@import "base/layout";
+
 
 
 //    Theme
 // ================================================
 @import "theme/typography";
 
-// @import "config/mixins";
-// @import "config/layout";
 
-
-// Foundation styling
-// @import "base/base",
-// "base/typography";
+//    Components
+// ================================================
+@import "components/masthead";
 
 // @import "partials/typography";
 // @import "partials/buttons";

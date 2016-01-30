@@ -25,13 +25,23 @@ $color-gray-50:  gray;
 $color-gray-75:  gray;
 $color-gray-120: gray;
 
-$color-text-base:    #62748C;
-$color-text-reverse: #ACD2E6;
+// From Sketch
+$color-bg-body-primary:   #F5F7FA;
+$color-bg-body-secondary: #E1EFFA;
 
+$color-ui-primary:        #DAE4F2;
+$color-ui-secondary:      #ACD2E6;
+
+$color-text-base:         #5F748D;
+
+
+/* ------------------------------*/
 $color-bg-pale-blue: #dfe8ef;
 $color-bg-dark-blue: #294052;
 $color-bg-xlt-gray:  #f1f4f5;
 $color-bg-lt-gray:   #d4dbe0;
+/* ------------------------------*/
+
 
 
 // Typography
@@ -59,7 +69,3 @@ $container-width:   1200px;
 $base-spacing-unit: 8px;
 
 $gutter-width:      $base-spacing-unit * 2;
-
-
-// Media queries
-// ========================

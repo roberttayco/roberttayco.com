@@ -1,14 +1,30 @@
 .masthead {
-   background: $color-gray-xlt;
-   // color: #fff;
-   position: fixed;
-   min-width: 300px;
-   max-width: 33.3333%;
-   top: 0;
-   left: 0;
-   bottom: 0;
+   background: $color-brand-primary;
+   color: #fff;
+   // position: fixed;
+   // min-width: 300px;
+   // max-width: 33.3333%;
+   // top: 0;
+   // left: 0;
+   // bottom: 0;
 }
 
-.menu {
+// Logo
+.logo {
+   background: url(./img/logo.svg) center no-repeat;
+   display:    inline-block;
+   height:     40px;
+   width:      120px;
 
+   // Add media queries
+}
+
+// Tagline
+.tagline {
+   font-family: $font-family-copy;
+   font-weight: $font-heavy;
+   line-height: 1.2;
+   text-align:  center;
+
+   @include font-size(24px);
 }

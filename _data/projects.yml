@@ -1,0 +1,40 @@
+-  name: MissTravel
+   client: Infostream Group
+   images:
+      -  img01: image01.jpg
+         img02: image02.jpg
+         img03: image03.jpg
+         img04: image04.jpg
+         img05: image05.jpg
+         img06: image06.jpg
+
+-  name: PairMeUp
+   client: Infostream Group
+   images:
+      -  img01: image01.jpg
+         img02: image02.jpg
+         img03: image03.jpg
+         img04: image04.jpg
+
+-  name: Penny Lane
+   images:
+      - img01: image01.jpg
+
+-  name: Unbridled
+   client: CSN Design Exhibition
+   images:
+      -  img01: image01.jpg
+         img02: image02.jpg
+         img03: image03.jpg
+
+-  name: Ground Control
+   client: CSN Design Exhibition
+   images:
+      -  img01: image01.jpg
+         img02: image02.jpg
+         img03: image03.jpg
+
+-  name: Old Man
+   images:
+      -  img01: image01.jpg
+         img02: image02.jpg

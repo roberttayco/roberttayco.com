@@ -1,0 +1,16 @@
+<section class="work container">
+   <div class="main-content">
+      <h5 class="section-title">Projects</h5>
+      <ul>
+         {% for project in site.data.projects %}
+         <li>
+            <h4>{{ project.name }}</h4>
+            <p>{{ project.client }}</p>
+            {% for image in site.data.projects.images %}
+            <p>{{ image.img }}</p>
+            {% endfor %}
+         </li>
+         {% endfor %}
+      </ul>
+   </div>
+</section>
