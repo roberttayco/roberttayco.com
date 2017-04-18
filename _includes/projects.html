@@ -1,13 +1,19 @@
 <section class="work container">
    <div class="main-content">
       <h5 class="section-title">Projects</h5>
-      <ul>
+      <ul class="grid-container">
+         {% comment %}
+            Loop through projects to display on the home page
+         {% endcomment %}
          {% for project in site.data.projects %}
-         <li>
+         <li class="grid-item">
             <h4>{{ project.name }}</h4>
             <p>{{ project.client }}</p>
-            {% for image in site.data.projects.images %}
-            <p>{{ image.img }}</p>
+            {% comment %}
+               Inside each project, find the cover image in the image array
+            {% endcomment %}
+            {% for image in project.images %}
+            <img class="img-thumb" src="{{ image.cover }}" alt="{{ image.cover }}" />
             {% endfor %}
          </li>
          {% endfor %}

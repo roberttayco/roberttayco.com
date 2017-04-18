@@ -9,3 +9,12 @@
 // .container--copy {
 //    max-width: 40em;
 // }
+
+.grid-container {
+   font-size: 0;
+   width:     100%;
+}
+   .grid-item {
+      display:   inline-block;
+      font-size: 14px;
+   }

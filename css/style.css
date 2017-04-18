@@ -403,6 +403,24 @@ th {
   width: 85%;
 }
 
+.grid-container {
+  font-size: 0;
+  width: 100%;
+}
+
+.grid-item {
+  display: inline-block;
+  font-size: 14px;
+}
+
+.img-thumb {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 120px;
+  height: 120px;
+}
+
 html, body {
   background: #F5F7FA;
   color: #5F748D;
