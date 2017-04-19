@@ -2,13 +2,13 @@
 name: Robert Tayco
 
 # Short description (goes below the title; it will also be used in the RSS feed)
-description: Robert Tayco is a UX/UI Designer and Front-End Developer based in Vancouver, WA. He is currently accepting design projects with an emphasis on user experience.
+description: Robert Tayco is a UX/UI Designer and Front-End Developer based in Kansas City, MO. He is currently accepting design projects with an emphasis on user experience.
 
 # Your name, as you want it to appear underneath each post and in the footer
 author: Robert Tayco
 
 # Your email if you want it to be linked on the contact page
-author_email: rob@roberttayco.com
+author_email: hello@roberttayco.com
 
 # The directory for category index pages. Change it to something else if
 # for example you want links like /categories/category1 instead of /category1
@@ -21,7 +21,7 @@ author_email: rob@roberttayco.com
 # baseurl:
 
 # The URL of your actual domain. This will be used to make absolute links in the RSS feed.
-url: http://roberttayco.com/
+url: https://roberttayco.com/
 
 #### Under the Hood Stuff #####
 
