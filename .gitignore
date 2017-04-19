@@ -2,9 +2,13 @@
 *.pdf
 *.sketch
 *.sublime*
+*.swp
 
 .DS_Store
-
-node_modules/
-
 _site/gulpfile.js
+npm-debug.log
+
+design
+node_modules
+bower_components
+dist
