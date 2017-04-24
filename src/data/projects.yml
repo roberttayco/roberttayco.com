@@ -1,46 +1,46 @@
--  name: MissTravel
-   client: Infostream Group
-   images:
-      -  cover: image-cover.jpg
-         img01: image01.jpg
-         img02: image02.jpg
-         img03: image03.jpg
-         img04: image04.jpg
-         img05: image05.jpg
-         img06: image06.jpg
+- name: MissTravel
+  client: Infostream Group
+  images:
+    - cover: image-cover.jpg
+      img01: image01.jpg
+      img02: image02.jpg
+      img03: image03.jpg
+      img04: image04.jpg
+      img05: image05.jpg
+      img06: image06.jpg
 
--  name: PairMeUp
-   client: Infostream Group
-   images:
-      -  cover: image-cover.jpg
-         img01: image01.jpg
-         img02: image02.jpg
-         img03: image03.jpg
-         img04: image04.jpg
+- name: PairMeUp
+  client: Infostream Group
+  images:
+    - cover: image-cover.jpg
+      img01: image01.jpg
+      img02: image02.jpg
+      img03: image03.jpg
+      img04: image04.jpg
 
--  name: Penny Lane
-   images:
-      -  cover: image-cover.jpg
-         img01: image01.jpg
+- name: Penny Lane
+  images:
+    - cover: image-cover.jpg
+      img01: image01.jpg
 
--  name: Unbridled
-   client: CSN Design Exhibition
-   images:
-      -  cover: image-cover.jpg
-         img01: image01.jpg
-         img02: image02.jpg
-         img03: image03.jpg
+- name: Unbridled
+  client: CSN Design Exhibition
+  images:
+    - cover: image-cover.jpg
+      img01: image01.jpg
+      img02: image02.jpg
+      img03: image03.jpg
 
--  name: Mission Control
-   client: CSN Design Exhibition
-   images:
-      -  cover: image-cover.jpg
-         img01: image01.jpg
-         img02: image02.jpg
-         img03: image03.jpg
+- name: Mission Control
+  client: CSN Design Exhibition
+  images:
+    - cover: image-cover.jpg
+      img01: image01.jpg
+      img02: image02.jpg
+      img03: image03.jpg
 
--  name: Old Man
-   images:
-      -  cover: image-cover.jpg
-         img01: image01.jpg
-         img02: image02.jpg
+- name: Old Man
+  images:
+    - cover: image-cover.jpg
+      img01: image01.jpg
+      img02: image02.jpg

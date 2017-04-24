@@ -1,18 +1,18 @@
 ---
 layout: home-2016
-title: Robert Tayco | UX/UI Designer | Front-End Developer
+title:  UX/UI Designer | Front-End Developer
 ---
 <div class="container">
    <section id="about">
       <div class="main-content">
-         <p class="headline centered">{% include whatido.md %}</p>
+         <p class="headline centered">{{> whatido }}</p>
 
-         {% include intro.md %}
+         {{> intro }}
 
       </div>
    </section>
 
    <div>
-      {% include projects.html %}
+      {{> projects }}
    </div>
 </div>
