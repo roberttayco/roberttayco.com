@@ -3,34 +3,29 @@
   max-width: 40em;
 }
 
-
 .container-sidebar {}
-
-
-
 
 section,
 .section {
   padding: 2em 0;
 }
 
-
 .container, .main-content { margin: 0 auto; }
 .container {
-   max-width: 960px;
+  max-width: 960px;
 }
 
 // sticky footer stuff
 html, body { height: 100%; }
 .page-wrap {
-   display: table;
-   padding: 0;
-   height: 100%;
-   width: 100%;
+  display: table;
+  padding: 0;
+  height: 100%;
+  width: 100%;
 }
 .block {
-   display: table-row;
-   height: 1px;
+  display: table-row;
+  height: 1px;
 }
 .push { height: auto }
 // end sticky footer stuff
