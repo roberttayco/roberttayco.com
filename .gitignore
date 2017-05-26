@@ -1,14 +1,12 @@
+.DS_Store
+node_modules
+npm-debug.log
+bower_components
+dist
+design
+
+*.swp
 *.scssc
 *.pdf
 *.sketch
-*.sublime*
-*.swp
 
-.DS_Store
-_site/gulpfile.js
-npm-debug.log
-
-design
-node_modules
-bower_components
-dist
